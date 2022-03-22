@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-color: gainsboro;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: slategray;
+    font-family: Cambria, Arial;
+    color: white;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+form{
+    font-family: inherit;
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+form input,button,textarea{
+    outline:  unset;
+    padding: 20px;
+    min-width: 300px;
+    border: 1px solid steelblue;
+    border-radius: 20px;
+}
+
+form input:focus, textarea:focus{
+    background-color: whitesmoke;
+}
+
+form label{
+    margin-left: 20px;
+}
+
+.botao {
+    background-color: slategrey;
+    color: white;
+    cursor: pointer;
+}
